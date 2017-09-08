@@ -1,0 +1,135 @@
+
+/* NAVBAR STYLES */
+
+.navbar-header {
+	background-color: #fff;
+}
+
+.navbar-brand {
+	background: url("../images/Flame.svg");
+	background-size: contain;
+	background-repeat:no-repeat;
+	background-position:center;
+	width: 140px;
+	height:60px;
+
+}
+.navbar-inverse {
+	background-color: #fff;
+	border-color: #fff;
+}
+
+.navbar-toggle {
+	background-color: #ffb733;
+}
+
+.navbar-inverse .navbar-toggle:hover .navbar-toggle:focus .navbar-toggle:active {
+	background-color:#ffb733;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #ffb733;
+    background-color: transparent;
+}
+/* end of navbar styles */
+
+/* Slider Styles */
+
+.slide-text {
+	font-family: sans serif;
+	color: #ddd;
+	text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+/* end of slider styles */
+
+/* images for containers on index.html */
+
+.image_homepage {
+     width:100%;
+     height:auto;
+}
+
+/* carousel styles */
+.carousel-caption-text{
+	text-align: right;
+	bottom:150px;
+}
+.carousel-text {
+	font-family: 'Cinzel', serif;
+	font-size: 1em;
+	position:absolute;
+}
+/* margin incorporated to move carousel lower down the page */
+.carousel {
+	margin-top:2em;
+}
+
+
+/* custom css about page */
+.quotedetails {
+	width: 60%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.quotetext {
+    font-family: "Merriweather", "Georgia", serif;
+    font-size: 14px;
+    padding: 0px 5px 10px 0px;
+    line-height: 21px;
+}
+/* aboutimage reduces in size depending on the media screen its viewed on */
+.aboutimg {
+	background-size:contain;
+	max-width:80%;
+	height:auto;
+	margin:auto;
+}
+@media screen and (max-width: 1100px){
+ .aboutimg {
+	background-size:contain;
+	width:60%;
+	height:auto;
+	margin:auto
+ }  
+}
+
+@media screen and (max-width: 480px){
+ .aboutimg {
+	background-size:contain;
+	width:50%;
+	height:auto;
+ }  
+}
+
+.col-centered {
+	float: none;
+	margin: 0 auto;
+}
+/* ************ end ***************/
+
+/* service page styling */
+
+/*  custom size for font awesome icons to dynamically change depending on screen size */
+.fa-5xcustom {
+	font-size:4.5vw;
+}
+
+.serv-img {
+	max-height:400px;
+	margin:1px;
+}
+.serv-icons {
+	color:#ffb733;
+}
+
+.text-serv {
+	font-family: 'Cinzel', serif;
+}
+/*end of service page styling *************************/
+
+/* set width to 100% to fit banner to page */
+.img-responsive-services {
+	width:100%;
+}
+
